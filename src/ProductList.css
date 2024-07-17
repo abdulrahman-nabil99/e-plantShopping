@@ -181,7 +181,7 @@ body {
 .plant_heading{
     width: 400px;
     text-align: center;
-    margin: 20px;
+    margin: 20px auto;
     border: 1px solid rgb(5, 4, 4);
     border-left: none;
     border-right: none;
@@ -216,7 +216,8 @@ body {
   }
   
   .product-button.added-to-cart {
-    background-color: grey; /* Grey when product is added */
+    background-color: #696c69; /* Gray */
+    
   }
   @media (max-width: 1200px) {
     .product-card {
@@ -249,4 +250,16 @@ body {
       .ul div {
         text-align: center; /* Align text to the center */
       }
+  }
+
+.cart-item-count {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
   }
